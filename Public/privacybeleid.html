@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacybeleid van Vani's Place." />
+  <title>Vani's Place | Privacybeleid</title>
+  <link rel="icon" type="image/png" href="assets/transparent-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="legal" data-legal-page="privacy">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Hoofdnavigatie">
+      <a class="logo" href="home.html" aria-label="Vani's Place home">
+        <img class="logo-image" src="assets/transparent-logo.png" alt="Logo Vani's Place" />
+        <span class="logo-text">Vani's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu" data-i18n="nav.menu">Menu</button>
+      <ul id="site-menu" class="nav-links">
+        <li><a class="nav-link" href="home.html" data-i18n="nav.home">Home</a></li>
+        <li><a class="nav-link" href="menu.html" data-i18n="nav.menu">Broodjes</a></li>
+        <li><a class="nav-link" href="ontbijtformules.html" data-i18n="nav.breakfast">Ontbijt</a></li>
+        <li><a class="nav-link" href="about.html" data-i18n="nav.about">Over ons</a></li>
+        <li><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-item-dropdown">
+          <button class="nav-more-btn" type="button" aria-expanded="false" aria-haspopup="true" data-i18n="nav.more">Meer</button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a class="nav-link nav-dropdown-link" href="recepties-vergaderingen.html" role="menuitem" data-i18n="nav.events">Catering</a>
+            <a class="nav-link nav-dropdown-link" href="reserveringen.html" role="menuitem" data-i18n="nav.reservations">Reserveringen</a>
+            <a class="nav-link nav-dropdown-link" href="cadeaubon.html" role="menuitem" data-i18n="nav.giftcard">Cadeaubon</a>
+          </div>
+        </li>
+      </ul>
+      <div class="lang-switch" aria-label="Taalkeuze">
+        <button class="lang-btn is-active" data-lang="nl" type="button">NL</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="fr" type="button">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container legal-hero-grid reveal">
+        <div id="legal-hero-main"></div>
+        <aside id="legal-hero-sidecard" class="legal-sidecard"></aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div id="legal-summary" class="container legal-summary reveal"></div>
+    </section>
+
+    <section class="section">
+      <div id="legal-content" class="container legal-content reveal"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; 2026 Vani's Place. Alle rechten voorbehouden.</p>
+        <p id="legal-footer-note">Privacybeleid afgestemd op de huidige werking van de website en online bestelstroom.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+  <script src="legal.js"></script>
+</body>
+</html>

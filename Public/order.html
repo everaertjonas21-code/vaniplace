@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Plaats je bestelling bij Vani's Place." />
+  <title>Vani's Place | Winkelwagen & afrekenen</title>
+  <link rel="icon" type="image/png" href="assets/transparent-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="order">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Hoofdnavigatie">
+      <a class="logo" href="home.html" aria-label="Vani's Place home">
+        <img class="logo-image" src="assets/transparent-logo.png" alt="Logo Vani's Place" />
+        <span class="logo-text">Vani's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu" data-i18n="nav.menu">Menu</button>
+            <ul id="site-menu" class="nav-links">
+        <li><a class="nav-link" href="home.html" data-i18n="nav.home">Home</a></li>
+        <li><a class="nav-link" href="menu.html" data-i18n="nav.menu">Broodjes</a></li>
+        <li><a class="nav-link" href="ontbijtformules.html" data-i18n="nav.breakfast">Ontbijt</a></li>
+        <li><a class="nav-link" href="about.html" data-i18n="nav.about">Over ons</a></li>
+        <li><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-item-dropdown">
+          <button class="nav-more-btn" type="button" aria-expanded="false" aria-haspopup="true" data-i18n="nav.more">Meer</button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a class="nav-link nav-dropdown-link" href="recepties-vergaderingen.html" role="menuitem" data-i18n="nav.events">Catering</a>
+            <a class="nav-link nav-dropdown-link" href="reserveringen.html" role="menuitem" data-i18n="nav.reservations">Reserveringen</a>
+            <a class="nav-link nav-dropdown-link" href="cadeaubon.html" role="menuitem" data-i18n="nav.giftcard">Cadeaubon</a>
+          </div>
+        </li>
+      </ul>
+      <div class="lang-switch" aria-label="Taalkeuze">
+        <button class="lang-btn is-active" data-lang="nl" type="button">NL</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="fr" type="button">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero order-page-hero">
+      <div class="container reveal">
+        <p class="eyebrow" data-i18n="order.heroEyebrow">Online bestelling</p>
+        <h1 data-i18n="order.heroTitle">Winkelwagen & afrekenen</h1>
+        <p data-i18n="order.heroText">Bekijk hier je gekozen items, pas aantallen aan en rond daarna je bestelling rustig af.</p>
+      </div>
+    </section>
+
+    <section class="section order-main-section">
+      <div class="container order-grid">
+        <article class="panel reveal">
+          <h2 data-i18n="order.selectionTitle">Jouw winkelwagen</h2>
+          <div id="order-items" class="order-items"></div>
+          <p id="order-subtotal" class="cart-badge" data-i18n="order.subtotalEmpty">Subtotaal EUR 0,00</p>
+          <p id="order-empty" class="order-feedback" data-i18n="order.empty">Je winkelmand is leeg. Voeg broodjes toe via het menu.</p>
+          <a class="btn btn-outline" href="menu.html" data-i18n="order.backMenu">Naar menu</a>
+        </article>
+
+        <article class="panel reveal delay-1">
+          <h2 data-i18n="order.customerTitle">Klantgegevens</h2>
+          <form id="checkout-form" class="contact-form">
+            <label for="customer-name" data-i18n="order.name">Naam</label>
+            <input id="customer-name" name="customerName" type="text" required />
+
+            <label for="customer-phone" data-i18n="order.phone">Telefoon</label>
+            <input id="customer-phone" name="customerPhone" type="tel" required />
+
+            <label for="customer-email" data-i18n="order.emailOptional">E-mail (optioneel)</label>
+            <input id="customer-email" name="customerEmail" type="email" />
+
+            <label for="pickup-slot" data-i18n="order.pickupMoment">Moment van ophaling</label>
+            <div class="pickup-picker" id="pickup-picker">
+              <div id="pickup-day-buttons" class="pickup-day-buttons" role="tablist" aria-label="Kies afhaaldag"></div>
+              <select id="pickup-slot" required></select>
+              <input id="pickup-time" name="pickupTime" type="hidden" required />
+              <p id="pickup-helper" class="order-feedback" data-i18n="order.pickupHelp">Openingsuren afhaling: ma-vr 07:30-14:30, za 08:00-14:30, zo gesloten.</p>
+            </div>
+
+            <label for="order-notes" data-i18n="order.notes">Extra's of wijzigingen</label>
+            <textarea id="order-notes" name="orderNotes" rows="4" placeholder="Bijv. geen ui, extra saus, apart verpakken" data-i18n-placeholder="order.notesPlaceholder"></textarea>
+
+            <label for="payment-method" data-i18n="order.paymentMethod">Betaalmethode</label>
+            <select id="payment-method" name="paymentMethod" required>
+              <option value="cash" data-i18n="order.payCash">Betalen bij afhaling</option>
+              <option value="online" data-i18n="order.payOnline">Online betalen (demo)</option>
+            </select>
+
+            <p class="order-legal-note"></p>
+
+            <button class="btn btn-primary" type="submit" data-i18n="order.submit">Bestelling afronden</button>
+            <p id="checkout-feedback" class="order-feedback" aria-live="polite"></p>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="order-edit-modal" class="menu-modal" aria-hidden="true">
+    <div class="menu-modal-backdrop" data-close-order-edit="true"></div>
+    <div class="menu-modal-panel" role="dialog" aria-modal="true" aria-labelledby="order-edit-title">
+      <button type="button" class="menu-modal-close" id="order-edit-close" aria-label="Sluit">x</button>
+      <h2 id="order-edit-title" data-i18n="order.editTitle">Wijzig broodje</h2>
+      <p id="order-edit-description" data-i18n="order.editDesc">Pas je opties aan.</p>
+
+      <div class="menu-modal-section">
+        <h3 data-i18n="order.pickSize">Kies formaat</h3>
+        <div id="order-edit-sizes" class="menu-modal-options"></div>
+      </div>
+
+      <div class="menu-modal-section">
+        <h3 data-i18n="order.extrasMax">Extras (max 10)</h3>
+        <div id="order-edit-extras" class="menu-modal-options scrollable"></div>
+      </div>
+
+      <div class="menu-modal-section">
+        <h3 data-i18n="order.specialWishes">Speciale wensen</h3>
+        <textarea id="order-edit-note" rows="3" placeholder="Bijv. zonder ui, extra saus" data-i18n-placeholder="order.editPlaceholder"></textarea>
+      </div>
+
+      <div class="menu-modal-footer">
+        <span id="order-edit-price" class="cart-badge">EUR 0,00</span>
+        <button type="button" class="btn btn-primary" id="order-edit-save" data-i18n="order.saveChanges">Opslaan wijzigingen</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+  <script src="order.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

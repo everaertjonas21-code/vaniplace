@@ -1,0 +1,13 @@
+{
+  "name": "vanis-place-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vani's Place public ordering site",
+  "scripts": {
+    "start": "node server.js",
+    "health-check": "node scripts/health-check.js",
+    "menu:export": "node scripts/export-menu-csv.js",
+    "menu:import": "node scripts/import-menu-csv.js",
+    "menu:sync": "node scripts/sync-menu-public.js"
+  }
+}

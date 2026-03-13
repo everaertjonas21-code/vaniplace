@@ -1,0 +1,1566 @@
+{
+  "categories": [
+    {
+      "id": "klassiek",
+      "label": {
+        "nl": "Klassiekers",
+        "en": "Classics",
+        "fr": "Classiques"
+      }
+    },
+    {
+      "id": "specials",
+      "label": {
+        "nl": "Specials",
+        "en": "Specials",
+        "fr": "Spécialités"
+      }
+    },
+    {
+      "id": "salades",
+      "label": {
+        "nl": "Salades",
+        "en": "Salads",
+        "fr": "Salades"
+      }
+    },
+    {
+      "id": "warm",
+      "label": {
+        "nl": "Warme snacks",
+        "en": "Hot snacks",
+        "fr": "Snacks chauds"
+      }
+    },
+    {
+      "id": "supplementen",
+      "label": {
+        "nl": "Supplementen",
+        "en": "Supplements",
+        "fr": "Suppléments"
+      }
+    }
+  ],
+  "items": [
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Kaas",
+        "en": "Cheese",
+        "fr": "Fromage"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 3,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Oude Kaas",
+        "en": "Aged Cheese",
+        "fr": "Vieux Fromage"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 3,70",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Hesp",
+        "en": "Ham",
+        "fr": "Jambon"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 3,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Brie",
+        "en": "Brie",
+        "fr": "Brie"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Kruidenkaas",
+        "en": "Herb Cheese",
+        "fr": "Fromage aux Herbes"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 3,70",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Geitenkaas",
+        "en": "Goat Cheese",
+        "fr": "Fromage de Chèvre"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Kaas & Hesp",
+        "en": "Cheese & Ham",
+        "fr": "Fromage & Jambon"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,30",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Oude Kaas & Hesp",
+        "en": "Aged Cheese & Ham",
+        "fr": "Vieux Fromage & Jambon"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Serrano Ham",
+        "en": "Serrano Ham",
+        "fr": "Jambon Serrano"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,20",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Huisgemaakte Gebakken Kip",
+        "en": "Homemade Fried Chicken",
+        "fr": "Poulet Frit Maison"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,30",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Boulette Koud",
+        "en": "Cold Meatball",
+        "fr": "Boulette Froid"
+      },
+      "description": {
+        "nl": "met saus",
+        "en": "with sauce",
+        "fr": "avec sauce"
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Boulette Koud Special",
+        "en": "Special Cold Meatball",
+        "fr": "Boulette Froid Spécial"
+      },
+      "description": {
+        "nl": "met saus en ui",
+        "en": "with sauce and onion",
+        "fr": "avec sauce et oignon"
+      },
+      "price": "EUR 5,60",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Preparé",
+        "en": "Preparé",
+        "fr": "Préparé"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,30",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Martino",
+        "en": "Martino",
+        "fr": "Martino"
+      },
+      "description": {
+        "nl": "preparé, ui, augurk, mosterd, ketchup, ansjovis, pikant",
+        "en": "pâté, onion, pickle, mustard, ketchup, anchovy, spicy",
+        "fr": "préparé, oignon, cornichon, moutarde, ketchup, anchois, épicé"
+      },
+      "price": "EUR 4,60",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Kip Curry",
+        "en": "Chicken Curry",
+        "fr": "Poulet au Curry"
+      },
+      "description": {
+        "nl": "Status: niet voorradig",
+        "en": "Status: out of stock",
+        "fr": "Statut : non disponible"
+      },
+      "price": "EUR 5,20",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Huisgemaakte Kipsla",
+        "en": "Homemade Chicken Salad",
+        "fr": "Salade de Poulet Maison"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Tonijnsla",
+        "en": "Tuna Salad",
+        "fr": "Salade de Thon"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Pikante Tonijnsla",
+        "en": "Spicy Tuna Salad",
+        "fr": "Salade de Thon Épicée"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Tonijntino",
+        "en": "Tuna Tino",
+        "fr": "Thon Tino"
+      },
+      "description": {
+        "nl": "mosterd, ketchup, ui",
+        "en": "mustard, ketchup, onion",
+        "fr": "moutarde, ketchup, oignon"
+      },
+      "price": "EUR 5,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Krabsla",
+        "en": "Crab Salad",
+        "fr": "Salade de Crabe"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,40",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Garnaalsla",
+        "en": "Shrimp Salad",
+        "fr": "Salade de crevettes"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Gerookte Zalm",
+        "en": "Smoked Salmon",
+        "fr": "Saumon fumé"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Gerookte Zalm met Kruidenkaas",
+        "en": "Smoked Salmon with Herb Cheese",
+        "fr": "Saumon fumé avec fromage aux herbes"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 5,30",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Gezond",
+        "en": "Healthy",
+        "fr": "Sain"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 4,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "klassiek",
+      "name": {
+        "nl": "Aardappelsla",
+        "en": "Potato Salad",
+        "fr": "Salade de pommes de terre"
+      },
+      "description": {
+        "nl": "Klassiek broodje.",
+        "en": "Classic sandwich.",
+        "fr": "Sandwich classique."
+      },
+      "price": "EUR 3,40",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Brie Deluxe",
+        "en": "Brie Deluxe",
+        "fr": "Brie Deluxe"
+      },
+      "description": {
+        "nl": "Brie, spek, appel, honing en noten",
+        "en": "Brie, bacon, apple, honey, and nuts",
+        "fr": "Brie, bacon, pomme, miel et noix"
+      },
+      "price": "EUR 5,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Bloody Mary",
+        "en": "Bloody Mary",
+        "fr": "Bloody Mary"
+      },
+      "description": {
+        "nl": "Martino, ansjovis, augurk, ei en cajunkruiden",
+        "en": "Martino, anchovy, pickle, egg, and Cajun spices",
+        "fr": "Martino, anchois, cornichon, œuf et épices cajun"
+      },
+      "price": "EUR 4,70",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Italiaantje",
+        "en": "Little Italian",
+        "fr": "Italien"
+      },
+      "description": {
+        "nl": "Serranoham, pesto, rucola en mozzarella",
+        "en": "Serrano ham, pesto, arugula, and mozzarella",
+        "fr": "Jambon Serrano, pesto, roquette et mozzarella"
+      },
+      "price": "EUR 5,60",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Oh My Goat!",
+        "en": "Oh My Goat!",
+        "fr": "Oh Mon Chèvre !"
+      },
+      "description": {
+        "nl": "Spek, honing, appel, geitenkaas en rucola",
+        "en": "Bacon, honey, apple, goat cheese, and arugula",
+        "fr": "Bacon, miel, pomme, fromage de chèvre et roquette"
+      },
+      "price": "EUR 6,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Mexicaantje",
+        "en": "Little Mexican",
+        "fr": "Mexicain"
+      },
+      "description": {
+        "nl": "Huisgemaakte kip, appel, cresson en ijsbergsla",
+        "en": "Homemade chicken, apple, watercress, and iceberg lettuce",
+        "fr": "Poulet fait maison, pomme, cresson et laitue iceberg"
+      },
+      "price": "EUR 5,90",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Boereke",
+        "en": "Boereke",
+        "fr": "Boereke"
+      },
+      "description": {
+        "nl": "Spek, komkommer, ei, tomaat, sla en BBQ-saus",
+        "en": "Bacon, cucumber, egg, tomato, lettuce, and BBQ sauce",
+        "fr": "Bacon, concombre, œuf, tomate, laitue et sauce BBQ"
+      },
+      "price": "EUR 6,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Kruidje",
+        "en": "Herb",
+        "fr": "Herbe"
+      },
+      "description": {
+        "nl": "Zalm, kruidenkaas, ei en cresson",
+        "en": "Salmon, herb cheese, egg, and watercress",
+        "fr": "Saumon, fromage aux herbes, œuf et cresson"
+      },
+      "price": "EUR 5,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Pulled Pork BBQ",
+        "en": "Pulled Pork BBQ",
+        "fr": "Pulled Pork BBQ"
+      },
+      "description": {
+        "nl": "Wortelen, ui en augurk",
+        "en": "Carrots, onion, and pickle",
+        "fr": "Carottes, oignon et cornichon"
+      },
+      "price": "EUR 5,60",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Kip Fiesta",
+        "en": "Chicken Fiesta",
+        "fr": "Poulet Fiesta"
+      },
+      "description": {
+        "nl": "Gebakken kip, sla, feta en frisse dressing",
+        "en": "Fried chicken, lettuce, feta, and fresh dressing",
+        "fr": "Poulet rôti, laitue, feta et vinaigrette fraîche"
+      },
+      "price": "EUR 5,80",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Chicken Surprise",
+        "en": "Chicken Surprise",
+        "fr": "Surprise de poulet"
+      },
+      "description": {
+        "nl": "Gebakken kip, tomaat, sla en currymayo",
+        "en": "Fried chicken, tomato, lettuce, and curry mayo",
+        "fr": "Poulet rôti, tomate, laitue et mayo au curry"
+      },
+      "price": "EUR 5,80",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Bo",
+        "en": "Bo",
+        "fr": "Bo"
+      },
+      "description": {
+        "nl": "Kip, tuinkers, sojascheuten en currymayo",
+        "en": "Chicken, cress, soybean sprouts, and curry mayo",
+        "fr": "Poulet, cresson, germes de soja et mayo au curry"
+      },
+      "price": "EUR 5,40",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Iveke",
+        "en": "Iveke",
+        "fr": "Iveke"
+      },
+      "description": {
+        "nl": "Preparé, ei, ui, mayo en ketchup",
+        "en": "Pâté, egg, onion, mayo, and ketchup",
+        "fr": "Préparé, œuf, oignon, mayo et ketchup"
+      },
+      "price": "EUR 5,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Septembré",
+        "en": "September",
+        "fr": "Septembré"
+      },
+      "description": {
+        "nl": "Preparé, rucola, pesto, ei en mayo",
+        "en": "Pâté, arugula, pesto, egg, and mayo",
+        "fr": "Préparé, roquette, pesto, œuf et mayo"
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Vani's Special",
+        "en": "Vani's Special",
+        "fr": "Spécial de Vani"
+      },
+      "description": {
+        "nl": "Gebakken kip, spek, parmezaan, rucola en Caesar dressing",
+        "en": "Fried chicken, bacon, parmesan, arugula, and Caesar dressing",
+        "fr": "Poulet rôti, bacon, parmesan, roquette et vinaigrette César"
+      },
+      "price": "EUR 6,20",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Sweet Chicken",
+        "en": "Sweet Chicken",
+        "fr": "Poulet sucré"
+      },
+      "description": {
+        "nl": "Kipsla, perzik en ijsbergsla",
+        "en": "Chicken salad, peach and iceberg lettuce",
+        "fr": "Salade de poulet, pêche et laitue iceberg"
+      },
+      "price": "EUR 5,20",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Fitness Delight",
+        "en": "Fitness Delight",
+        "fr": "Délice Fitness"
+      },
+      "description": {
+        "nl": "Kipfilet, cottage cheese, komkommer en tuinkers op fitnessbroodje",
+        "en": "Chicken breast, cottage cheese, cucumber and cress on a fitness roll",
+        "fr": "Filet de poulet, fromage cottage, concombre et cresson sur un pain fitness"
+      },
+      "price": "EUR 6,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Brie Honey",
+        "en": "Brie Honey",
+        "fr": "Brie au Miel"
+      },
+      "description": {
+        "nl": "Brie, honing, walnoten en rucola",
+        "en": "Brie, honey, walnuts and arugula",
+        "fr": "Brie, miel, noix et roquette"
+      },
+      "price": "EUR 5,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Natuur",
+        "en": "Nature Salad",
+        "fr": "Salade Nature"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 7,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade met Hesp",
+        "en": "Salad with Ham",
+        "fr": "Salade avec Jambon"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 9,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade met Gebakken Kip",
+        "en": "Salad with Grilled Chicken",
+        "fr": "Salade avec Poulet Grillé"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 9,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Preparé",
+        "en": "Prepared Salad",
+        "fr": "Salade Préparée"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 9,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Geitenkaas",
+        "en": "Goat Cheese Salad",
+        "fr": "Salade de Chèvre"
+      },
+      "description": {
+        "nl": "met spekjes en appel",
+        "en": "with bacon bits and apple",
+        "fr": "avec des lardons et une pomme"
+      },
+      "price": "EUR 10,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Tonijnsla",
+        "en": "Tuna Salad",
+        "fr": "Salade de Thon"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 10,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Krabsla",
+        "en": "Crab Salad",
+        "fr": "Salade de Crabe"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 10,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Gerookte Zalm",
+        "en": "Smoked Salmon Salad",
+        "fr": "Salade de Saumon Fumé"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 10,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Oceaan",
+        "en": "Ocean Salad",
+        "fr": "Salade Océan"
+      },
+      "description": {
+        "nl": "Zalm, Tonijnsla, Krab, Garnaal",
+        "en": "Salmon, tuna salad, crab, shrimp",
+        "fr": "Saumon, salade de thon, crabe, crevette"
+      },
+      "price": "EUR 13,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade Griekje",
+        "en": "Greek Salad",
+        "fr": "Salade Grecque"
+      },
+      "description": {
+        "nl": "Verse salade.",
+        "en": "Fresh salad.",
+        "fr": "Salade fraîche."
+      },
+      "price": "EUR 10,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Hamburger (met broodje)",
+        "en": "Hamburger (with bun)",
+        "fr": "Hamburger (avec pain)"
+      },
+      "description": {
+        "nl": "Warme snack met broodje.",
+        "en": "Warm snack with a roll.",
+        "fr": "Snack chaud avec pain."
+      },
+      "price": "EUR 4,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Hamburger (zonder broodje)",
+        "en": "Hamburger (without bun)",
+        "fr": "Hamburger (sans pain)"
+      },
+      "description": {
+        "nl": "Warme snack zonder broodje.",
+        "en": "Warm snack without a roll.",
+        "fr": "Snack chaud sans pain."
+      },
+      "price": "EUR 2,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Cheeseburger (met broodje)",
+        "en": "Cheeseburger (with bun)",
+        "fr": "Cheeseburger (avec pain)"
+      },
+      "description": {
+        "nl": "Warme snack met broodje.",
+        "en": "Warm snack with a roll.",
+        "fr": "Snack chaud avec pain."
+      },
+      "price": "EUR 4,30",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Cheeseburger (zonder broodje)",
+        "en": "Cheeseburger (without bun)",
+        "fr": "Cheeseburger (sans pain)"
+      },
+      "description": {
+        "nl": "Warme snack zonder broodje.",
+        "en": "Warm snack without a roll.",
+        "fr": "Snack chaud sans pain."
+      },
+      "price": "EUR 2,80",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Bicky Burger",
+        "en": "Bicky Burger",
+        "fr": "Burger Bicky"
+      },
+      "description": {
+        "nl": "Warme snack.",
+        "en": "Warm snack.",
+        "fr": "Snack chaud."
+      },
+      "price": "EUR 5,10",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Bicky Cheese",
+        "en": "Bicky Cheese",
+        "fr": "Bicky Cheese"
+      },
+      "description": {
+        "nl": "Warme snack.",
+        "en": "Warm snack.",
+        "fr": "Snack chaud."
+      },
+      "price": "EUR 5,40",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Kippenburger",
+        "en": "Chicken Burger",
+        "fr": "Burger de Poulet"
+      },
+      "description": {
+        "nl": "Warme snack.",
+        "en": "Warm snack.",
+        "fr": "Snack chaud."
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Fishburger",
+        "en": "Fish Burger",
+        "fr": "Fishburger"
+      },
+      "description": {
+        "nl": "Warme snack.",
+        "en": "Warm snack.",
+        "fr": "Snack chaud."
+      },
+      "price": "EUR 6,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Mexicano (met broodje)",
+        "en": "Mexicano (with bread)",
+        "fr": "Mexicano (avec pain)"
+      },
+      "description": {
+        "nl": "Warme snack met broodje.",
+        "en": "Warm snack with a roll.",
+        "fr": "Snack chaud avec pain."
+      },
+      "price": "EUR 5,20",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Mexicano (zonder broodje)",
+        "en": "Mexicano (without bread)",
+        "fr": "Mexicano (sans pain)"
+      },
+      "description": {
+        "nl": "Warme snack zonder broodje.",
+        "en": "Warm snack without a roll.",
+        "fr": "Snack chaud sans pain."
+      },
+      "price": "EUR 3,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Kipcorn (met broodje)",
+        "en": "Chicken Corn (with bread)",
+        "fr": "Kipcorn (avec pain)"
+      },
+      "description": {
+        "nl": "Warme snack met broodje.",
+        "en": "Warm snack with a roll.",
+        "fr": "Snack chaud avec pain."
+      },
+      "price": "EUR 4,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Kipcorn (zonder broodje)",
+        "en": "Chicken Corn (without bread)",
+        "fr": "Kipcorn (sans pain)"
+      },
+      "description": {
+        "nl": "Warme snack zonder broodje.",
+        "en": "Warm snack without a roll.",
+        "fr": "Snack chaud sans pain."
+      },
+      "price": "EUR 2,80",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Gebakken Boulette (met broodje)",
+        "en": "Fried Boulette (with bread)",
+        "fr": "Boulette frite (avec pain)"
+      },
+      "description": {
+        "nl": "Warme snack met broodje.",
+        "en": "Warm snack with a roll.",
+        "fr": "Snack chaud avec pain."
+      },
+      "price": "EUR 5,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "warm",
+      "name": {
+        "nl": "Gebakken Boulette (zonder broodje)",
+        "en": "Fried Boulette (without bread)",
+        "fr": "Boulette frite (sans pain)"
+      },
+      "description": {
+        "nl": "Warme snack zonder broodje.",
+        "en": "Warm snack without a roll.",
+        "fr": "Snack chaud sans pain."
+      },
+      "price": "EUR 3,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Smos",
+        "en": "Smos",
+        "fr": "Smos"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 1,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Extra groenten",
+        "en": "Extra vegetables",
+        "fr": "Légumes supplémentaires"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 0,40",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Extra saus",
+        "en": "Extra sauce",
+        "fr": "Sauce supplémentaire"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 0,60",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Extra vlees vis kaas",
+        "en": "Extra meat fish cheese",
+        "fr": "Viande, poisson, fromage supplémentaires"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 1,50",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Multigranen bagnat",
+        "en": "Multigrain bagnat",
+        "fr": "Bagnat multigrains"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 0,60",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Fitnessbroodje",
+        "en": "Fitness sandwich",
+        "fr": "Pain fitness"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 0,80",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "supplementen",
+      "name": {
+        "nl": "Glutenvrij",
+        "en": "Gluten-free",
+        "fr": "Sans gluten"
+      },
+      "description": {
+        "nl": "Supplement / extra optie.",
+        "en": "Supplement / extra option.",
+        "fr": "Supplément / option supplémentaire."
+      },
+      "price": "EUR 2,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Test brood",
+        "en": "Test bread",
+        "fr": "Pain test"
+      },
+      "description": {
+        "nl": "Test broodje met huisgemaakte smaak",
+        "en": "Test roll with homemade flavor",
+        "fr": "Pain test avec saveur maison"
+      },
+      "price": "EUR 28,00",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "salades",
+      "name": {
+        "nl": "Salade met scampi",
+        "en": "Shrimp Salad",
+        "fr": "Salade aux scampis"
+      },
+      "description": {
+        "nl": "salade met scampi's en verse currysaus",
+        "en": "salad with shrimp and fresh curry sauce",
+        "fr": "salade avec des scampis et une sauce curry fraîche"
+      },
+      "price": "EUR 14,90",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    },
+    {
+      "category": "specials",
+      "name": {
+        "nl": "Jonatino",
+        "en": "Jonatino",
+        "fr": "Jonatino"
+      },
+      "description": {
+        "nl": "Martino met Cajunkruiden, ketchup,mosterd en augurk",
+        "en": "Martino with Cajun spices, ketchup, mustard, and pickles",
+        "fr": "Martino avec des épices cajun, ketchup, moutarde et cornichon"
+      },
+      "price": "EUR 4,90",
+      "status": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "available": true
+    }
+  ]
+}
