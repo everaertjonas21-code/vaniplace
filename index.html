@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vani's Place - Verse belegde broodjes met smaak en kwaliteit." />
+  <title>Vani's Place | Home</title>
+  <link rel="icon" type="image/png" href="assets/transparent-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Hoofdnavigatie">
+      <a class="logo" href="home.html" aria-label="Vani's Place home">
+        <img class="logo-image" src="assets/transparent-logo.png" alt="Logo Vani's Place" />
+        <span class="logo-text">Vani's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu" data-i18n="nav.menu">Menu</button>
+            <ul id="site-menu" class="nav-links">
+        <li><a class="nav-link" href="home.html" data-i18n="nav.home">Home</a></li>
+        <li><a class="nav-link" href="menu.html" data-i18n="nav.menu">Broodjes</a></li>
+        <li><a class="nav-link" href="ontbijtformules.html" data-i18n="nav.breakfast">Ontbijt</a></li>
+        <li><a class="nav-link" href="about.html" data-i18n="nav.about">Over ons</a></li>
+        <li><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-item-dropdown">
+          <button class="nav-more-btn" type="button" aria-expanded="false" aria-haspopup="true" data-i18n="nav.more">Meer</button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a class="nav-link nav-dropdown-link" href="recepties-vergaderingen.html" role="menuitem" data-i18n="nav.events">Catering</a>
+            <a class="nav-link nav-dropdown-link" href="reserveringen.html" role="menuitem" data-i18n="nav.reservations">Reserveringen</a>
+            <a class="nav-link nav-dropdown-link" href="cadeaubon.html" role="menuitem" data-i18n="nav.giftcard">Cadeaubon</a>
+          </div>
+        </li>
+      </ul>
+      <div class="lang-switch" aria-label="Taalkeuze">
+        <button class="lang-btn is-active" data-lang="nl" type="button">NL</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="fr" type="button">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow" data-i18n="home.eyebrow">Ambachtelijk en vers bereid</p>
+          <h1 data-i18n="home.title">Ambachtelijke smaken, vers bereid bij Vani's Place</h1>
+          <p data-i18n="home.subtitle">
+            Van rijk belegde broodjes tot frisse salades en smaakvolle pasta's - elke dag vers voor jou gemaakt.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="menu.html" data-i18n="cta.viewMenu">Bekijk menu</a>
+            <a class="btn btn-outline" href="contact.html" data-i18n="cta.contactUs">Contacteer ons</a>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-1" aria-hidden="true">
+          <div class="image-placeholder">Hero afbeelding placeholder</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section home-highlights-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="home.highlightsEyebrow">Waarom Vani's Place</p>
+          <h2 data-i18n="home.highlightsTitle">Eerlijk, vers en zonder gedoe</h2>
+          <p data-i18n="home.highlightsText">
+            Voor een snelle lunch, een verzorgde afhaling of een gezellige pauze kies je bij ons voor smaak,
+            eenvoud en persoonlijke service.
+          </p>
+        </div>
+        <div class="home-highlights-grid">
+          <article class="panel home-highlight-card reveal">
+            <span class="home-highlight-kicker" data-i18n="home.point1Kicker">Dagelijks vers</span>
+            <h3 data-i18n="home.point1Title">Met zorg bereid</h3>
+            <p data-i18n="home.point1Text">
+              Van broodjes tot salades en pasta's: alles wordt met aandacht klaargemaakt en mooi afgewerkt.
+            </p>
+          </article>
+          <article class="panel home-highlight-card reveal delay-1">
+            <span class="home-highlight-kicker" data-i18n="home.point2Kicker">Vlot geregeld</span>
+            <h3 data-i18n="home.point2Title">Snel bestellen en afhalen</h3>
+            <p data-i18n="home.point2Text">
+              Je bestelt eenvoudig online en haalt jouw bestelling op het gekozen moment af, zonder onnodig wachten.
+            </p>
+          </article>
+          <article class="panel home-highlight-card reveal delay-2">
+            <span class="home-highlight-kicker" data-i18n="home.point3Kicker">Meer dan lunch</span>
+            <h3 data-i18n="home.point3Title">Ook voor ontbijt en groepen</h3>
+            <p data-i18n="home.point3Text">
+              Van ontbijtformules tot bestellingen voor teams of bijeenkomsten: we denken graag met je mee.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="spaarpunten" class="section section-alt">
+      <div class="container hours-intro-grid">
+        <article class="panel reveal">
+          <p class="eyebrow" data-i18n="home.hoursEyebrow">Openingsuren</p>
+          <h2 data-i18n="home.hoursTitle">Wanneer kan je langskomen?</h2>
+          <ul class="hours-list">
+            <li><span data-i18n="hours.mon">MA</span><strong>07.30 - 14.30</strong></li>
+            <li><span data-i18n="hours.tue">DI</span><strong>07.30 - 14.30</strong></li>
+            <li><span data-i18n="hours.wed">WO</span><strong>07.30 - 14.30</strong></li>
+            <li><span data-i18n="hours.thu">DO</span><strong>07.30 - 14.30</strong></li>
+            <li><span data-i18n="hours.fri">VR</span><strong>07.30 - 14.30</strong></li>
+            <li><span data-i18n="hours.sat">ZA</span><strong>08.00 - 14.30</strong></li>
+            <li><span data-i18n="hours.sun">ZO</span><strong data-i18n="hours.closed">gesloten</strong></li>
+          </ul>
+          <p data-i18n="hours.holidaysClosed">Feestdagen gesloten</p>
+        </article>
+        <article class="panel reveal delay-1">
+          <p class="eyebrow" data-i18n="nav.about">Over ons</p>
+          <h2 data-i18n="home.aboutTitle">Klein team, grote smaak</h2>
+          <p data-i18n="home.aboutText">
+            Bij Vani's Place geloven we dat een goed broodje begint met aandacht. We combineren
+            klassieke recepten met een moderne twist en serveren telkens met een glimlach.
+          </p>
+          <a class="text-link" href="about.html" data-i18n="home.readStory">Lees ons verhaal</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+      <div class="container footer-inner">
+      <div>
+        <p data-i18n="footer.rights"><span data-i18n="footer.rights">&copy; 2026 Vani's Place. Alle rechten voorbehouden.</span></p>
+        <p data-i18n="footer.homeNote">Vervang placeholders later door echte foto's, prijzen en contactgegevens.</p>
+      </div>
+      <div class="footer-social" aria-label="Social media">
+        <p class="footer-social-title" data-i18n="footer.followUs">Volg ons</p>
+        <div class="social-links">
+          <a class="social-link" href="https://www.facebook.com/people/Vanis-Place/61573087433016/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 9H16V6h-2.5C11.6 6 10 7.6 10 9.5V12H8v3h2v5h3v-5h2.3l.7-3H13V9.8c0-.5.4-.8.5-.8Z" fill="currentColor"/></svg>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/vanis.place?igsh=MTRodm16ZHMyZDlucw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3Zm0 2A2.5 2.5 0 0 0 5 7.5v9A2.5 2.5 0 0 0 7.5 19h9a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 16.5 5h-9Zm10 1.2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" fill="currentColor"/></svg>
+          </a>
+          <a class="social-link" href="https://www.youtube.com/@VanisPlace" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 8.2a2.8 2.8 0 0 0-2-2C17.8 5.7 12 5.7 12 5.7s-5.8 0-7.6.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 3.8 2.8 2.8 0 0 0 2 2c1.8.5 7.6.5 7.6.5s5.8 0 7.6-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-3.8ZM10 15.4V8.6L16 12l-6 3.4Z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

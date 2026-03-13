@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cadeaubonnen van Vani's Place." />
+  <title>Vani's Place | Cadeaubon</title>
+  <link rel="icon" type="image/png" href="assets/transparent-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="cadeaubon">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Hoofdnavigatie">
+      <a class="logo" href="home.html" aria-label="Vani's Place home">
+        <img class="logo-image" src="assets/transparent-logo.png" alt="Logo Vani's Place" />
+        <span class="logo-text">Vani's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-menu" data-i18n="nav.menu">Menu</button>
+            <ul id="site-menu" class="nav-links">
+        <li><a class="nav-link" href="home.html" data-i18n="nav.home">Home</a></li>
+        <li><a class="nav-link" href="menu.html" data-i18n="nav.menu">Broodjes</a></li>
+        <li><a class="nav-link" href="ontbijtformules.html" data-i18n="nav.breakfast">Ontbijt</a></li>
+        <li><a class="nav-link" href="about.html" data-i18n="nav.about">Over ons</a></li>
+        <li><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-item-dropdown">
+          <button class="nav-more-btn" type="button" aria-expanded="false" aria-haspopup="true" data-i18n="nav.more">Meer</button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a class="nav-link nav-dropdown-link" href="recepties-vergaderingen.html" role="menuitem" data-i18n="nav.events">Catering</a>
+            <a class="nav-link nav-dropdown-link" href="reserveringen.html" role="menuitem" data-i18n="nav.reservations">Reserveringen</a>
+            <a class="nav-link nav-dropdown-link" href="cadeaubon.html" role="menuitem" data-i18n="nav.giftcard">Cadeaubon</a>
+          </div>
+        </li>
+      </ul>
+      <div class="lang-switch" aria-label="Taalkeuze">
+        <button class="lang-btn is-active" data-lang="nl" type="button">NL</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="fr" type="button">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <p class="eyebrow" data-i18n="gift.eyebrow">Geef smaak cadeau</p>
+        <h1 data-i18n="gift.title">Cadeaubon</h1>
+        <p data-i18n="gift.intro">Een stijlvolle gift voor ontbijt, lunch of een lekkere koffiepauze.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <article class="panel reveal">
+          <h2 data-i18n="gift.amountsTitle">Beschikbare bedragen</h2>
+          <ul class="hours-list compact">
+            <li><span data-i18n="gift.title">Cadeaubon</span><strong>EUR 15</strong></li>
+            <li><span data-i18n="gift.title">Cadeaubon</span><strong>EUR 25</strong></li>
+            <li><span data-i18n="gift.title">Cadeaubon</span><strong>EUR 50</strong></li>
+            <li><span data-i18n="gift.title">Cadeaubon</span><strong data-i18n="gift.flexAmount">Vrij bedrag</strong></li>
+          </ul>
+        </article>
+        <article class="panel reveal delay-1">
+          <h2 data-i18n="gift.howTitle">Hoe bestellen?</h2>
+          <p data-i18n="gift.howText1">Vraag je cadeaubon aan via telefoon of mail en haal ze af in de zaak.</p>
+          <p data-i18n="gift.howText2">Wil je meerdere bonnen voor je team? Dan maken we een bundel op maat.</p>
+          <a class="btn btn-primary" href="contact.html" data-i18n="gift.cta">Cadeaubon aanvragen</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p><span data-i18n="footer.rights">&copy; 2026 Vani's Place. Alle rechten voorbehouden.</span></p>
+        <p data-i18n="gift.footerNote">Tip: koppel later cadeaubonnen aan Stripe of een voucher-code systeem.</p>
+      </div>
+      <div class="footer-social" aria-label="Social media">
+        <p class="footer-social-title" data-i18n="footer.followUs">Volg ons</p>
+        <div class="social-links">
+          <a class="social-link" href="https://www.facebook.com/people/Vanis-Place/61573087433016/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 9H16V6h-2.5C11.6 6 10 7.6 10 9.5V12H8v3h2v5h3v-5h2.3l.7-3H13V9.8c0-.5.4-.8.5-.8Z" fill="currentColor"/></svg>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/vanis.place?igsh=MTRodm16ZHMyZDlucw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3Zm0 2A2.5 2.5 0 0 0 5 7.5v9A2.5 2.5 0 0 0 7.5 19h9a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 16.5 5h-9Zm10 1.2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" fill="currentColor"/></svg>
+          </a>
+          <a class="social-link" href="https://www.youtube.com/@VanisPlace" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 8.2a2.8 2.8 0 0 0-2-2C17.8 5.7 12 5.7 12 5.7s-5.8 0-7.6.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 3.8 2.8 2.8 0 0 0 2 2c1.8.5 7.6.5 7.6.5s5.8 0 7.6-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-3.8ZM10 15.4V8.6L16 12l-6 3.4Z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
